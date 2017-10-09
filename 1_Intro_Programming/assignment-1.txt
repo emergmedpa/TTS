@@ -1,0 +1,28 @@
+Homework Questions and answers
+
+Q1: If I start in my root director (in this case it is called directors). How would I navigate to the directory called food?
+A1: cd images/clipart/food
+
+Q2: From food, how would I navigate to Poe, EdgarAllen?
+A2: cd ../../e-texts/poe,EdgarAllan or cd e-texts/poe,edgarallan
+
+Q3: How would I be able to tell the contents of Poe, EdgarAllan?
+A3: ls -alt
+
+Q4: Navigate to images, and use the command that will tell you the exact path of where you are?
+A5: cd ../images  then type pwd
+
+Q5: While in images, create a folder called photographs.
+A5: mkdir photographs
+
+Q6: Navigate to your new directory, and create a new file called sunrise. Oh and make it a .jpg file.
+A6: cd photographs  then touch sunrise.jpg
+
+Q7: Now move that file back one directory
+A7: mv sunrise.jpg ../
+
+Q8: Change directories to the like folder under monkeys. Open this folder in sublime (I am going to use Atom)
+A8: cd Monkeys/like then atom
+
+Q9: Bonus! Remove the bananas.html file from like folder
+A9: rm bananas.html

@@ -1,0 +1,32 @@
+.chart {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-radius: 60px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+}
+#chart1 {
+  border-right: 60px solid red;
+  border-top: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+}
+#chart2 {
+  border-right: 60px solid transparent;
+  border-top: 60px solid green;
+  border-left: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+}
+#chart3 {
+  border-right: 60px solid transparent;
+  border-top: 60px solid transparent;
+  border-left: 60px solid blue;
+  border-bottom: 60px solid transparent;
+}
+#chart4 {
+  border-right: 60px solid transparent;
+  border-top: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 60px solid yellow;
+}

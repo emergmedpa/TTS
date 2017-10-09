@@ -1,0 +1,75 @@
+case
+  when ____ then
+  or
+  when
+----------------------------------------------------------------
+nested hashes
+  params {}
+  params [:user] = {:name "Clarise", :email "cjorgensen@tts.com"}
+
+call hash
+  params[:user][:name]
+-----------------------------------------------------------------
+methods = instructions to do something with an object
+  used similar to functions in python
+  used when need to repeat multiple times in code
+
+  def my_first_method
+    #do something
+  end
+
+  def real_method
+    puts "Hello"
+  end
+
+parameters = way to put in variables into your method later in time
+
+def addition(arg1, arg2)
+  arg1 + arg2
+end
+...Later
+puts addition (80, 90)
+result = 170
+
+-----------------------------------------------------------------------
+%w will take each word in an array and add "" and ,
+example:
+  %w(apple orange banana)
+  ["apple", "orange", "banana"]
+-----------------------------------------------------------------------
+Ternary Operators
+
+condition ? returns true : returns false
+
+if x = 50
+    puts "Awesome"
+else
+    puts "Not Awesome"
+end
+
+====>
+
+puts x=50? "Awesome": "Not Awesome"
+
+answer = arr.include?(42) ? "Everything" : "Nothing"
+
+--------------------------------------------------------------
+if x = 50
+  puts "awesome"
+end
+
+=====>
+
+puts "awesome" if x=50
+
+--------------------------------------------------------------
+
+unless problems.include?("glitch")
+  puts "I got 99 problems..."
+end
+
+=====>
+
+puts "I got 99 problems..." unless problems.include?("glitch")
+
+---------------------------------------------------------------

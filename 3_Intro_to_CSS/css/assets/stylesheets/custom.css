@@ -1,0 +1,42 @@
+h1 {
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-align: right;
+  font-style:italic;
+}
+
+h2 {
+  background-color: green;
+  color: white;
+  border-color: white;
+  border: 2px;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+#center {
+  text-align: center;
+}
+
+#indent {
+  text-align: justify;
+}
+ul li {
+  list-style: circle;
+}
+
+#hide {
+  display: none;
+}
+
+ol li{
+  display: inline;
+}
+
+
+
+#up-over {
+  position:relative;
+    bottom: 4px;
+    right:8px;
+}

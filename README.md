@@ -5,7 +5,9 @@
 # Syllabus
 Week 1 - Introduction to Web Development
 Day 1 - Intro to Programming and Command Line
+
 Day 2 - Intro to HTML
+
 
 Week 2 - Front-end Continued
 Day 3 - Intro to CSS
